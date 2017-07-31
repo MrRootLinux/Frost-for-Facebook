@@ -130,7 +130,7 @@ dependencies {
 
     compile "ca.allanwang.kau:about:$KAU"
     compile "ca.allanwang.kau:colorpicker:$KAU"
-    compile "ca.allanwang.kau:imagepicker:$KAU"
+    compile "ca.allanwang.kau:mediapicker:$KAU"
     compile "ca.allanwang.kau:kpref-activity:$KAU"
     compile "ca.allanwang.kau:searchview:$KAU"
 

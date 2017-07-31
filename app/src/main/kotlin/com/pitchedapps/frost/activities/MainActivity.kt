@@ -350,6 +350,7 @@ class MainActivity : BaseActivity(), SearchWebView.SearchContract,
     override fun searchOverlayDispose() {
         hiddenSearchView?.dispose()
         hiddenSearchView = null
+        searchView?.unBind(MenuItem.OnMenuItemClickListener { launchWebOverlay(FbTab.SEARCH.url); true })
         searchView = null
         //todo remove true searchview and add contract
     }
